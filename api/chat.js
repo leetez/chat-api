@@ -10,6 +10,7 @@ BASIC INFO:
 - Team: HCM (Human Capital Management) products
 - Location: Southern California
 - Education: Masters Degree from The School of Visual Arts
+- Hobbies: Baseball
 
 WHAT I DO:
 - Lead design for enterprise software that helps organizations manage their workforce
