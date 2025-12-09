@@ -11,8 +11,8 @@ const knowledge = {
   // --- BASIC INFO ---
   personal: {
     name: "Leroy Tellez",
-    location: "Southern California",
-    hometown: "Born and raised in Los Angeles, CA",
+    location: "Los Angeles, CA",
+    hometown: "Born and raised in South Gate, CA located in South East Los Angeles",
     email: "lee.tez@gmail.com",
     education: "Masters Degree from The School of Visual Arts",
     yearsExperience: "20+ years in design across advertising and tech",
@@ -24,16 +24,30 @@ const knowledge = {
     title: "Director of User Experience",
     company: "Oracle",
     team: "HCM (Human Capital Management)",
-    industry: "Healthcare",
-    focus: "Tools for nurse managers and staffing coordinators",
-    whatIDo: "Lead design for enterprise software that helps organizations manage their workforce. Turn complex scheduling and staffing processes into clear, intuitive interfaces."
+    teamSize: "8 designers (senior, mid-level, and junior)",
+    
+    whatIDo:"Lead a team of designers in solving complex business challenges across Oracle's HCM product suite. I ensure our work stays strategically aligned, user-focused, and grounded in solving the right problems.",
+    
+    productVerticals: [
+      "Workforce Management - Scheduling, timekeeping, and absence tools for workers and managers",
+      "Workforce Compensation - Tools for managers to compare, model, and manage compensation awards",
+      "Recruitment - End-to-end hiring tools for sourcing, evaluating, and onboarding candidates"
+    ],
+    
+    responsibilities: [
+      "Provide hands-on feedback to keep designs simple, task-oriented, and easy to use",
+      "Partner with product managers to shape project scope and strategy",
+      "Push for requirements that are clear, focused, and consistent with product goals",
+      "Mentor designers in strengthening their process and problem-solving skills",
+      "Drive innovation by staying connected to our industry and competitive landscape"
+    ]
   },
 
   // --- CURRENT PROJECTS ---
   currentProjects: [
-    "Healthcare staffing dashboards for nurse managers",
-    "Temporal urgency patterns - showing what needs attention now vs. later",
-    "Simplifying complex workforce scheduling into actionable interfaces"
+    "Redesigning the Workforce Compensation application",
+    "Designing new scheduling tools for nurses and schedule managers",
+    "Exploring how AI agents can impact our products"
   ],
 
   // --- DESIGN PHILOSOPHY ---
@@ -188,20 +202,55 @@ const knowledge = {
   },
 
   // ============================================
-  // PORTFOLIO PROJECTS - Add details here
+  // LINKS - Your online presence
   // ============================================
+  links: {
+    portfolio: "https://yourportfolio.com",
+    linkedin: "https://linkedin.com/in/ltellez",
+    email: "mailto:lee.tez@gmail.com",
+    resume: "" // TODO: Add if you want to share a PDF link
+  },
+
+  // ============================================
+  // PORTFOLIO PROJECTS - With category tags
+  // ============================================
+  // Categories help the bot find relevant work when users ask
+  // Common categories: healthcare, enterprise, consumer, B2B, B2C,
+  // mobile, web, dashboard, design-system, 0-to-1, redesign, research
+
   projects: [
+    {
+      name: "Nurse Scheduling Dashboard",
+      company: "Oracle",
+      year: "",
+      categories: ["healthcare", "enterprise", "B2B", "dashboard", "web"],
+      description: "Reduced scheduling time from 4+ hours to 45 minutes for nurse managers",
+      challenge: "", // TODO: What was the problem?
+      outcome: "", // TODO: What were the results?
+      url: "" // TODO: Add case study link
+    },
+    {
+      name: "Temporal Urgency Patterns",
+      company: "Oracle",
+      year: "",
+      categories: ["healthcare", "enterprise", "B2B", "dashboard", "web"],
+      description: "Visual system showing what needs attention now vs. later",
+      challenge: "",
+      outcome: "",
+      url: ""
+    },
     {
       name: "",
       company: "",
       year: "",
+      categories: [], // TODO: Add relevant tags
+      description: "",
       challenge: "",
-      approach: "",
       outcome: "",
-      learnings: ""
+      url: ""
     }
-    // TODO: Add 2-4 projects you want to highlight
-    // Copy the object above and fill in for each project
+    // TODO: Add more projects - copy the template above
+    // Include a mix of categories if you have consumer/agency work to show range
   ]
 };
 
@@ -223,6 +272,19 @@ HOW TO RESPOND:
 - Use the knowledge base above for all facts
 - If a field is empty ("") or blank, say "That's something Leroy would be happy to discuss directly - feel free to reach out!"
 - Don't make up information that isn't in the knowledge base
+
+SHARING WORK & LINKS:
+- When someone asks to see work (portfolio, projects, examples), check the "projects" array
+- Match their request to project "categories" - e.g., "healthcare projects" matches ["healthcare"]
+- Share ALL projects that match the requested category
+- Format as: brief description + URL (if url exists)
+- If a project has no URL, mention the project but say the case study isn't online yet
+- If no projects match the category, say "I don't have examples of that type to share, but Leroy may have more work in that area - feel free to reach out directly."
+- If someone asks for portfolio/LinkedIn/resume, use the "links" section
+- Always include the actual URL so they can click it
+
+Example response for "show me healthcare work":
+"Leroy has several healthcare projects from Oracle. The Nurse Scheduling Dashboard reduced scheduling time from 4+ hours to 45 minutes: [url]. He also designed Temporal Urgency Patterns, a visual system for prioritizing what needs attention: [url]"
 
 FORMATTING:
 - Don't use markdown headers or bullet points in responses
