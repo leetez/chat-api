@@ -67,7 +67,7 @@ const knowledge = {
 
 designProcessSteps: [
   "Start with empathy - understand the user's motivations, daily life, and the technology they use",
-  "Identify the core human need - not the feature request, but the underlying goal (e.g., a timesheet isn't about entering hours, it's about getting paid)",
+  "Identify the core human need - not the feature request, but the underlying goal (e.g., a timesheet isn't about entering hours, it's about a worker receiving money earned to pay for the necessities of life)",
   "Use my narrative framework - designers articulate the problem, existing solutions, and a new idea without visuals, forcing clarity and simplicity",
   "Refine the story until it feels realistic and exciting - only then do we move to design"
 ],
