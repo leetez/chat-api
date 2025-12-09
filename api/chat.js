@@ -63,10 +63,16 @@ const knowledge = {
   // ============================================
   employer: {
 
-    designProcess: "",
-    // TODO: Walk through your typical approach to a new project
-    // Example: "I start with stakeholder interviews to understand business goals,
-    // then move to user research. I like to sketch broadly before narrowing..."
+  designProcess: "I use narrative-driven design to uncover pain points and solutions. Before any wireframes or mockups, I build a story that explains the problem and proposed solution in plain language.",
+
+designProcessSteps: [
+  "Start with empathy - understand the user's motivations, daily life, and the technology they use",
+  "Identify the core human need - not the feature request, but the underlying goal (e.g., a timesheet isn't about entering hours, it's about getting paid)",
+  "Use my narrative framework - designers articulate the problem, existing solutions, and a new idea without visuals, forcing clarity and simplicity",
+  "Refine the story until it feels realistic and exciting - only then do we move to design"
+],
+
+whyNarratives: "Without a clear core need, there's no priority in messaging or features. That's how experiences become convoluted—they try to do too much at once. A strong narrative keeps everyone aligned on what we're actually solving.",
 
     measuringSuccess: "",
     // TODO: How do you know your designs work? What metrics matter to you?
